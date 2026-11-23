@@ -12,4 +12,4 @@ dependencies = [
 wifisec = "wifisec.ui.main_window:run"
 
 [tool.uv]
-package = false
+package = true

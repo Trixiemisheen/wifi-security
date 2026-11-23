@@ -177,7 +177,7 @@ wheels = [
 [[package]]
 name = "wifisec-suite"
 version = "4.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "pyside6" },
     { name = "tabulate" },
