@@ -1,6 +1,10 @@
 """Main window: sidebar + stacked pages, theme, startup update check."""
 from PySide6.QtWidgets import (
-    QHBoxLayout, QMainWindow, QMessageBox, QStackedWidget, QWidget,
+    QHBoxLayout,
+    QMainWindow,
+    QMessageBox,
+    QStackedWidget,
+    QWidget,
 )
 
 from wifisec.core.config import TOOL_NAME
@@ -10,7 +14,7 @@ from wifisec.ui.pages.password_page import PasswordPage
 from wifisec.ui.pages.pentest_page import PentestPage
 from wifisec.ui.pages.scanner_page import ScannerPage
 from wifisec.ui.pages.settings_page import SettingsPage
-from wifisec.ui.sidebar import PAGES, Sidebar
+from wifisec.ui.sidebar import Sidebar
 from wifisec.ui.theme import build_qss
 from wifisec.ui.workers import UpdateWorker
 

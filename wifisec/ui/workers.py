@@ -4,7 +4,7 @@ import traceback
 from PySide6.QtCore import QThread, Signal
 
 from wifisec.core import scanner
-from wifisec.core.password_auditor import get_wifi_profiles, get_wifi_password
+from wifisec.core.password_auditor import get_wifi_password, get_wifi_profiles
 from wifisec.services.updater import check_for_updates
 
 

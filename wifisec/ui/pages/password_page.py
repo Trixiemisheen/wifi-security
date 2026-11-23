@@ -1,10 +1,17 @@
 """Password viewer page."""
 from PySide6.QtWidgets import (
-    QFileDialog, QHBoxLayout, QLabel, QMessageBox, QPushButton,
-    QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget,
+    QFileDialog,
+    QHBoxLayout,
+    QLabel,
+    QMessageBox,
+    QPushButton,
+    QTableWidget,
+    QTableWidgetItem,
+    QVBoxLayout,
+    QWidget,
 )
 
-from wifisec.core.password_auditor import export_to_csv, get_wifi_password
+from wifisec.core.password_auditor import export_to_csv
 from wifisec.services.admin_check import privilege_warning
 from wifisec.ui.workers import PasswordWorker
 

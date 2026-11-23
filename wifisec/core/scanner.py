@@ -6,7 +6,7 @@ import re
 import subprocess
 from datetime import datetime
 
-from wifisec.core.config import DATA_DIR, REPORTS_DIR, TOOL_NAME, SCAN_TIMEOUT
+from wifisec.core.config import DATA_DIR, REPORTS_DIR, SCAN_TIMEOUT, TOOL_NAME
 from wifisec.core.logging_utils import log_event
 
 IS_WINDOWS = (os.name == "nt")

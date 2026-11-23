@@ -14,7 +14,9 @@ def check_for_updates(project_dir: str | None = None) -> str:
     if shutil.which("git") is None:
         return "skipped"
 
-    project_dir = project_dir or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    project_dir = project_dir or os.path.dirname(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    )
     try:
         repo = subprocess.run(
             ["git", "-C", project_dir, "rev-parse", "--is-inside-work-tree"],

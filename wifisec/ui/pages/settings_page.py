@@ -1,7 +1,13 @@
 """Settings page."""
 from PySide6.QtWidgets import (
-    QCheckBox, QComboBox, QFormLayout, QLabel, QMessageBox, QPushButton,
-    QVBoxLayout, QWidget,
+    QCheckBox,
+    QComboBox,
+    QFormLayout,
+    QLabel,
+    QMessageBox,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
 )
 
 from wifisec.core.config import TOOL_VERSION

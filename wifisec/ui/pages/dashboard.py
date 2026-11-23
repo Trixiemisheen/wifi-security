@@ -1,13 +1,16 @@
 """Overview page: status, tools, quick info."""
 import shutil
 
-from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
-    QGridLayout, QLabel, QPushButton, QVBoxLayout, QWidget,
+    QGridLayout,
+    QLabel,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
 )
 
 from wifisec.core.config import TOOL_NAME, TOOL_VERSION
-from wifisec.core.scanner import get_wifi_interfaces, IS_WINDOWS
+from wifisec.core.scanner import IS_WINDOWS, get_wifi_interfaces
 from wifisec.services.admin_check import is_admin, privilege_warning
 
 

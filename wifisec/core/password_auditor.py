@@ -2,7 +2,6 @@
 import csv
 import re
 import subprocess
-from typing import Optional
 
 
 def get_wifi_profiles() -> list[dict]:
@@ -30,7 +29,7 @@ def get_wifi_profiles() -> list[dict]:
     return profiles
 
 
-def get_wifi_password(profile_name: str) -> Optional[str]:
+def get_wifi_password(profile_name: str) -> str | None:
     try:
         output = subprocess.check_output(
             f'netsh wlan show profile name="{profile_name}" key=clear',

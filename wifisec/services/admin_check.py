@@ -19,5 +19,8 @@ def privilege_warning() -> str:
     if is_admin():
         return ""
     if os.name == "nt":
-        return "Some profiles may not show passwords without admin rights. Run as Administrator if needed."
+        return (
+            "Some profiles may not show passwords without admin rights. "
+            "Run as Administrator if needed."
+        )
     return "On Linux, attacks require root (sudo)."

@@ -4,6 +4,25 @@ A collection of Python scripts designed for auditing local Wi-Fi networks, captu
 
 ---
 
+## Modern package workflow
+
+The application is installable as a Python package with `uv`:
+
+```bash
+uv sync --extra dev
+uv run wifisec
+```
+
+Run the automated checks with:
+
+```bash
+uv run pytest
+uv run ruff check .
+```
+
+Use the scanner and pentest features only on networks and systems you own or
+are explicitly authorized to assess.
+
 > **DISCLAIMER:**  
 > This toolkit is provided strictly for **educational purposes** and **authorized security assessments** on systems you own or have explicit permission to audit. The author assumes no responsibility for misuse or illegal activities.
 
