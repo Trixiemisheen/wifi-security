@@ -65,7 +65,7 @@ python passwordviewer.py
 📬 Contact & Support
 For bug reports, improvements, or suggestions:
 
-Email: misheentrixie@gmail.com
+Email: misheentrixie@trixiemisheen.site
 
 WhatsApp: +254791915925
 
