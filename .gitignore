@@ -1,2 +1,9 @@
-/.vscode
-/__pycache__
+__pycache__/
+.venv/
+data/
+logs/
+reports/
+attack_work/
+*.cap
+*.pcapng
+wordlist.txt
