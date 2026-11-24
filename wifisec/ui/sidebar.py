@@ -6,7 +6,8 @@ PAGES = [
     ("Scanner", "Ctrl+2"),
     ("Password Viewer", "Ctrl+3"),
     ("Pentest", "Ctrl+4"),
-    ("Settings", "Ctrl+5"),
+    ("Cracker", "Ctrl+5"),
+    ("Settings", "Ctrl+6"),
 ]
 
 

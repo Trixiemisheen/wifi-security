@@ -9,6 +9,7 @@ from PySide6.QtWidgets import (
 
 from wifisec.core.config import TOOL_NAME
 from wifisec.services import settings as settings_service
+from wifisec.ui.pages.cracker_page import CrackerPage
 from wifisec.ui.pages.dashboard import DashboardPage
 from wifisec.ui.pages.password_page import PasswordPage
 from wifisec.ui.pages.pentest_page import PentestPage
@@ -41,6 +42,7 @@ class MainWindow(QMainWindow):
             ScannerPage(),
             PasswordPage(),
             PentestPage(),
+            CrackerPage(),
             SettingsPage(self),
         ]
         for page in self.pages:

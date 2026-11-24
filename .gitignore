@@ -7,3 +7,5 @@ attack_work/
 *.cap
 *.pcapng
 wordlist.txt
+tools/
+data/hashcat.potfile
