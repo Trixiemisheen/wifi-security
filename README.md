@@ -69,6 +69,6 @@ uv run ruff check .
 For bug reports, improvements, or suggestions:
 
 - Email: <misheentrixie@trixiemisheen.site>
-- WhatsApp: +254791915925
+- WhatsApp: <http://wa.me/+254791915925>
 - Instagram: <https://instagram.com/trixiemisheen>
 - Telegram: <https://t.me/Trixie_Misheen>
